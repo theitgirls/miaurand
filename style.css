@@ -1,9 +1,15 @@
 body {
     color: black;
     background-color: #189BCC;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.dome {
+    float: right;
+}
+.clear {
+    clear: both;
 }
 h1 {color: maroon}
 h2 {color: black;}
-h3 {color: maroon}
+h3 {color: maroon;}
 h4 {color: black;}
