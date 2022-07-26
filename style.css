@@ -9,6 +9,11 @@ body {
 .clear {
     clear: both;
 }
+.welcome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 h1 {color: maroon}
 h2 {color: black;}
 h3 {color: maroon;}
