@@ -13,3 +13,14 @@ h1 {color: maroon}
 h2 {color: black;}
 h3 {color: maroon;}
 h4 {color: black;}
+
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #BECC41;
+}
+
+nav a {color: white}
+nav {color: white;}
+
+nav a:hover {background-color: grey;}
