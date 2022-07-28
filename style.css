@@ -6,6 +6,12 @@ body {
 .dome {
     float: right;
 }
+.chart {
+    float: right;
+}
+.deepdream {
+    float: left;
+}
 .clear {
     clear: both;
 }
@@ -22,10 +28,30 @@ h4 {color: black;}
 nav {
     padding: 10px;
     margin-bottom: 30px;
-    background-color: #BECC41;
+    background-color: #EA213A;
 }
 
 nav a {color: white}
 nav {color: white;}
 
 nav a:hover {background-color: grey;}
+
+hr {
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+div {
+    border: 1px solid black;
+    margin: 30px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 25px;
+}
+.img{
+    border: 1px solid black;
+    margin: 30px;
+    padding: 50px;
+    background-color: #BECC41;
+    border-radius: 25px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>First Javascript</title>
+        <script>
+            function firstFunction(){
+                alert("Hello IT Girls students!")
+            }
+            function secondFunction () {
+                alert("Let's do a second alert.")
+            }
+            function changeColor () {
+                document.getElementById("maya").style.backgroundColor = 
+                    document.getElementById("colorpicker").value
+            }
+        </script>
+    </head>
+    <body onload="firstFunction();" id = "maya">
+        <h1>IT GIRLS</h1>
+        <p>This is our first Javascript program.</p>
+        <a onclick="secondFunction();"> Click for a secret message:</a>
+
+        <form>
+            <input type="color" id="colorpicker" onchange="changeColor();">
+        </form>
+
+    </body>
+</html>
