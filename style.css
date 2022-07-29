@@ -3,14 +3,29 @@ body {
     background-color: #189BCC;
     font-family: 'Quicksand', sans-serif;
 }
+.maureen {
+    float: left;
+}
+.butterfly{
+    float: right;
+}
 .dome {
+    float: left;
+}
+.nodecode {
+    float: right;
+}
+.cyber {
+    float: left;
+}
+.pizza {
     float: right;
 }
 .chart {
-    float: right;
+    float: left;
 }
 .deepdream {
-    float: left;
+    float: right;
 }
 .clear {
     clear: both;
@@ -29,6 +44,7 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
     background-color: #EA213A;
+    text-align: center;
 }
 
 nav a {color: white}
